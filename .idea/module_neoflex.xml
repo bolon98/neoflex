@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_neoflex" default="compile.module.neoflex">
+  <dirname property="module.neoflex.basedir" file="${ant.file.module_neoflex}"/>
+  
+  <property name="module.jdk.home.neoflex" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.neoflex" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.neoflex" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.neoflex" value="-encoding UTF-8 -source 12 -target 12 ${compiler.args}"/>
+  
+  <property name="neoflex.output.dir" value="undefined"/>
+  <property name="neoflex.testoutput.dir" value="undefined"/>
+  
+  <path id="neoflex.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="neoflex.module.production.classpath">
+    <path refid="${module.jdk.classpath.neoflex}"/>
+  </path>
+  
+  <path id="neoflex.runtime.production.module.classpath"/>
+  
+  <path id="neoflex.module.classpath">
+    <path refid="${module.jdk.classpath.neoflex}"/>
+  </path>
+  
+  <path id="neoflex.runtime.module.classpath"/>
+  
+  
+  <patternset id="excluded.from.module.neoflex">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.neoflex">
+    <patternset refid="excluded.from.module.neoflex"/>
+  </patternset>
+  
+  
+  <target name="compile.module.neoflex" depends="compile.module.neoflex.production,compile.module.neoflex.tests" description="Compile module neoflex"/>
+  
+  <target name="compile.module.neoflex.production" depends="register.custom.compilers" description="Compile module neoflex; production classes"/>
+  
+  <target name="compile.module.neoflex.tests" depends="register.custom.compilers,compile.module.neoflex.production" description="compile module neoflex; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.neoflex" description="cleanup module">
+    <delete dir="${neoflex.output.dir}"/>
+    <delete dir="${neoflex.testoutput.dir}"/>
+  </target>
+</project>
