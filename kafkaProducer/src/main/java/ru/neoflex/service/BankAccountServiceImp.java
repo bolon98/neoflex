@@ -1,9 +1,9 @@
 package ru.neoflex.service;
 
+import org.springframework.kafka.support.serializer.JsonSerializer;
 import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
-import org.springframework.boot.autoconfigure.kafka.KafkaProperties;
-import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -11,7 +11,6 @@ import ru.neoflex.model.AccountType;
 import ru.neoflex.model.BankAccount;
 import ru.neoflex.utils.DataCache;
 
-import java.util.Objects;
 import java.util.Properties;
 
 @Service
@@ -37,10 +36,14 @@ public class BankAccountServiceImp implements BankAccountService {
         props.put("batch.size", 65536);
         props.put("buffer.memory", 10000000);
         props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
-        props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+        props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, JsonSerializer.class);
 
-        KafkaProducer<String, String> producer = new KafkaProducer<>(props);
-        producer.send(new ProducerRecord<>("Bank_accounts", bankAccount.toString()));
+        KafkaProducer<String, Object> producer = new KafkaProducer<>(props);
+        try {
+            producer.send(new ProducerRecord<>("Bank_accounts", bankAccount.getUuid().toString(),bankAccount)).get(); //.get() - синхронная отправка сообщения
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         return bankAccount;
     }

@@ -24,21 +24,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="624d69a7-f849-4fa4-8c13-6670077245d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/neoflex/model/AccountType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/neoflex/model/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/neoflex/service/BankAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/neoflex/service/BankAccountServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/neoflex/utils/DataCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/kafka.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/neoflex/ProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/neoflex/ProjectApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ProjectApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProjectApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/ProjectApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/neoflex/ProjectApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ProjectApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ProjectApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/neoflex/service/BankAccountServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/neoflex/service/BankAccountServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/service/BankAccountServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/neoflex/service/BankAccountServiceImp.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/service/BankAccountServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="41" column="76" lean-forward="true" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
+            <state relative-caret-position="136">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,8 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+            <state relative-caret-position="103">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -185,8 +174,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/model/AccountType.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/model/BankAccount.java" />
         <option value="$PROJECT_DIR$/src/main/resources/kafka.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ProjectApplicationTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ru/neoflex/service/BankAccountServiceImp.java" />
       </list>
     </option>
@@ -198,7 +187,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -380,7 +369,7 @@
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30769232" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -456,13 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -479,10 +461,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/service/BankAccountServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="41" column="76" lean-forward="true" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
+        <state relative-caret-position="136">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
