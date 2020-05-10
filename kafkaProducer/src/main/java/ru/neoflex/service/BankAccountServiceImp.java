@@ -1,11 +1,9 @@
 package ru.neoflex.service;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaTemplate;
-import org.springframework.kafka.support.serializer.JsonSerializer;
-import org.apache.kafka.clients.producer.KafkaProducer;
-import org.apache.kafka.clients.producer.ProducerConfig;
-import org.apache.kafka.clients.producer.ProducerRecord;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -13,15 +11,18 @@ import ru.neoflex.model.AccountType;
 import ru.neoflex.model.BankAccount;
 import ru.neoflex.utils.DataCache;
 
-import java.util.Properties;
-
 @Service
+@Slf4j
 public class BankAccountServiceImp implements BankAccountService {
+
+    @Value("${kafka.topic}")
+    private String topic;
+
     @Autowired
-    private KafkaTemplate<String, String> kafkaTemplate;
+    private KafkaTemplate<String, Object> kafkaTemplate;
 
     @Override
-    @Scheduled(fixedDelay = 10000)
+    @Scheduled(fixedDelay = 5000)
     public BankAccount getBankAccount() {
         RestTemplate restTemplate = new RestTemplate();
 
@@ -34,7 +35,8 @@ public class BankAccountServiceImp implements BankAccountService {
             bankAccount.setAccountType(new AccountType(DataCache.current));
         }
 
-        kafkaTemplate.send("Bank_accounts", bankAccount.getUuid().toString(), bankAccount.toString());
+        log.info("message from bankAccountGenerator {}", bankAccount);
+        kafkaTemplate.send(topic, bankAccount.getUuid().toString(), bankAccount);
 
         return bankAccount;
     }
