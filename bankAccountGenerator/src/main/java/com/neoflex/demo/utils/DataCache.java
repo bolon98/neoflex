@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DataCache {
-    private static final String path = "D:/Neoflex/demo/src/main/resources/NamesForBankAccounts/"; //Путь к файлам с ФИО
+    private static final String path = "src/main/resources/NamesForBankAccounts/"; //Путь к файлам с ФИО
 
     public static List<String> listMansNames;
     public static List<String> listMansSurnames;
