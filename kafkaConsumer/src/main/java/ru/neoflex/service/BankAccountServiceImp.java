@@ -25,7 +25,5 @@ public class BankAccountServiceImp implements BankAccountService {
 
         mp.send(bankAccount);
         log.info("message from kafkaProducer {}",bankAccount);
-//        System.out.println(mp.get(bankAccount.getUuid().toString()));
-//        mp.get(bankAccount.getUuid().toString());для след мкс
     }
 }

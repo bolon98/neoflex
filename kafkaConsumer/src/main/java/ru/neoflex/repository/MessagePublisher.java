@@ -4,7 +4,10 @@ import ru.neoflex.model.BankAccount;
 
 public interface MessagePublisher {
 
+    /**
+     * Добавить BankAccount в Redis
+     *
+     */
     public void send(BankAccount bankAccount);
 
-    public BankAccount get(String id);
 }

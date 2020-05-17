@@ -29,8 +29,4 @@ public class MessagePublisherImpl implements MessagePublisher {
     public void send(BankAccount bankAccount) {
         this.operation.put("Accounts", bankAccount.getUuid().toString(), bankAccount);
     }
-
-    public BankAccount get(String id) {
-        return (BankAccount) operation.get("Accounts", id);
-    }
 }
