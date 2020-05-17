@@ -16,20 +16,20 @@ public class BankAccountServiceImp implements BankAccountService {
     public BankAccount getAccount() {
 
         Random random = new Random();
-        int[] gender = {0, 1};
 
         BankAccount bankAccount = new BankAccount();
 
         bankAccount.setUuid(UUID.randomUUID());
 
-        if (gender[random.nextInt(gender.length)] == 1) {
+        if ((int) (Math.random() * 2) == 1) {
             bankAccount.setFirstName(listMansNames.get(random.nextInt(listMansNames.size())));
             bankAccount.setLastName(listMansSurnames.get(random.nextInt(listMansSurnames.size())));
             bankAccount.setPatronymic(listMansPatronymics.get(random.nextInt(listMansPatronymics.size())));
-        } else
+        } else {
             bankAccount.setFirstName(listWomansNames.get(random.nextInt(listWomansNames.size())));
-        bankAccount.setLastName(listWomansSurnames.get(random.nextInt(listWomansSurnames.size())));
-        bankAccount.setPatronymic(listWomansPatronymics.get(random.nextInt(listWomansPatronymics.size())));
+            bankAccount.setLastName(listWomansSurnames.get(random.nextInt(listWomansSurnames.size())));
+            bankAccount.setPatronymic(listWomansPatronymics.get(random.nextInt(listWomansPatronymics.size())));
+        }
 
         return bankAccount;
     }
