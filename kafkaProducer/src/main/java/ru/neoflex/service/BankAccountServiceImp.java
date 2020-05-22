@@ -21,8 +21,15 @@ public class BankAccountServiceImp implements BankAccountService {
     @Autowired
     private KafkaTemplate<String, Object> kafkaTemplate;
 
-    @Override
     @Scheduled(fixedDelay = 5000)
+    public void processAccount() {
+        BankAccount bankAccount = getBankAccount();
+
+        log.info("message from bankAccountGenerator {}", bankAccount);
+        kafkaTemplate.send(topic, bankAccount.getUuid().toString(), bankAccount);
+    }
+
+    @Override
     public BankAccount getBankAccount() {
         RestTemplate restTemplate = new RestTemplate();
 
@@ -34,9 +41,6 @@ public class BankAccountServiceImp implements BankAccountService {
         } else {
             bankAccount.setAccountType(new AccountType(DataCache.current));
         }
-
-        log.info("message from bankAccountGenerator {}", bankAccount);
-        kafkaTemplate.send(topic, bankAccount.getUuid().toString(), bankAccount);
 
         return bankAccount;
     }

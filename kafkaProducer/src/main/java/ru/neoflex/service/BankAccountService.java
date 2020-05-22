@@ -5,8 +5,10 @@ import ru.neoflex.model.BankAccount;
 public interface BankAccountService {
 
     /**
-     * Добавить AccountType в банковский аккаунт
+     * Получить BankAccount
      *
      */
     BankAccount getBankAccount();
+
+
 }

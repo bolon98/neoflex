@@ -13,12 +13,12 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 @RestController
 @RequestMapping(value = "/api", produces = APPLICATION_JSON_VALUE)
 @RequiredArgsConstructor
-public class UserRedisRequest {
+public class GetAccountController {
 
-    private final MessagePublisher mp;
+    private final MessagePublisher messagePublisher;
 
     @GetMapping(value = "/getAccount/{id}")
     public BankAccount getBankAccountId (@PathVariable(value = "id") String id) {
-        return mp.get(id);
+        return messagePublisher.get(id);
     }
 }
