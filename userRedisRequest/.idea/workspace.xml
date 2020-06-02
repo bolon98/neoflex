@@ -24,16 +24,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb2a7a6-1edc-44cf-a63c-29ad222140cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../addressGenerate/addressGenerate.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../addressGenerate/src/main/java/ru/neoflex/ProjectApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../addressGenerate/src/main/java/ru/neoflex/config/KafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../addressGenerate/src/main/java/ru/neoflex/config/TopologyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../addressGenerate/src/main/java/ru/neoflex/model/AccountType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../addressGenerate/src/main/java/ru/neoflex/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../addressGenerate/src/main/java/ru/neoflex/model/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../addressGenerate/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressGenerate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../addressGenerate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressGenerate/src/main/java/ru/neoflex/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../addressGenerate/src/main/java/ru/neoflex/config/KafkaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressGenerate/src/main/java/ru/neoflex/config/TopologyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../addressGenerate/src/main/java/ru/neoflex/config/TopologyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressGenerate/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../addressGenerate/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressGenerate/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../addressGenerate/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressGenerate/target/classes/ru/neoflex/config/KafkaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../addressGenerate/target/classes/ru/neoflex/config/KafkaConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressGenerate/target/classes/ru/neoflex/config/TopologyConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../addressGenerate/target/classes/ru/neoflex/config/TopologyConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kafkaConsumer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaConsumer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafkaConsumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaConsumer/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kafkaProducer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaProducer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafkaProducer/src/main/java/ru/neoflex/service/BankAccountServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaProducer/src/main/java/ru/neoflex/service/BankAccountServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafkaProducer/target/classes/ru/neoflex/service/BankAccountServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaProducer/target/classes/ru/neoflex/service/BankAccountServiceImp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
