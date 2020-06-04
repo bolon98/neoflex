@@ -3,7 +3,6 @@ package ru.neoflex.service;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import ru.neoflex.model.Address;
@@ -11,7 +10,6 @@ import ru.neoflex.model.Address;
 @Service
 public class RandomAddressServiceImpl implements RandomAddressService {
 
-    @Scheduled(fixedDelay = 5000)
     @Override
     public Address getAddress() throws JSONException {
         RestTemplate restTemplate = new RestTemplate();
@@ -28,7 +26,6 @@ public class RandomAddressServiceImpl implements RandomAddressService {
 
         Address address = new Address(street, city, state);
 
-        System.out.println(address.toString());
         return address;
     }
 }
