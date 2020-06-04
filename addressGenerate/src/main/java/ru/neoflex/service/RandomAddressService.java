@@ -1,5 +1,6 @@
 package ru.neoflex.service;
 
+import org.json.JSONException;
 import ru.neoflex.model.Address;
 
 public interface RandomAddressService {
@@ -8,5 +9,5 @@ public interface RandomAddressService {
      * Получить Случайный адрес с https://randomapi.com/
      *
      */
-    void getAddress();
+    Address getAddress() throws JSONException;
 }
