@@ -24,22 +24,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="681bf777-a1a6-457a-8606-4efd30b91bf9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/src/main/java/ru/neoflex/config/KafkaConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/src/main/java/ru/neoflex/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/src/main/java/ru/neoflex/repository/MessagePublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/src/main/java/ru/neoflex/repository/MessagePublisherImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/src/main/java/ru/neoflex/service/BankAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/src/main/java/ru/neoflex/service/BankAccountServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/neoflex/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/neoflex/config/KafkaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/neoflex/config/KafkaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/neoflex/config/KafkaConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kafkaConsumer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaConsumer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafkaConsumer2/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaConsumer2/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kafkaConsumer2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaConsumer2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafkaConsumer2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaConsumer2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafkaConsumer2/src/main/java/ru/neoflex/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaConsumer2/src/main/java/ru/neoflex/config/KafkaConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kafkaConsumer2/src/main/java/ru/neoflex/config/TopologyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaConsumer2/src/main/java/ru/neoflex/config/TopologyConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kafkaConsumer2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaConsumer2/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafkaConsumer2/target/classes/ru/neoflex/config/KafkaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaConsumer2/target/classes/ru/neoflex/config/KafkaConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kafkaConsumer2/target/classes/ru/neoflex/config/TopologyConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaConsumer2/target/classes/ru/neoflex/config/TopologyConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kafkaProducer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaProducer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafkaProducer/src/main/java/ru/neoflex/service/BankAccountServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaProducer/src/main/java/ru/neoflex/service/BankAccountServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafkaProducer/target/classes/ru/neoflex/service/BankAccountServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaProducer/target/classes/ru/neoflex/service/BankAccountServiceImp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../userRedisRequest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../userRedisRequest/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -100,7 +97,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/config/TopologyConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
+            <state relative-caret-position="190">
               <caret line="28" column="59" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -484,7 +481,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/config/TopologyConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
+        <state relative-caret-position="190">
           <caret line="28" column="59" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />

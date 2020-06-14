@@ -5,6 +5,7 @@ import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.StreamsBuilder;
 import org.apache.kafka.streams.Topology;
 import org.apache.kafka.streams.kstream.*;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -45,7 +46,7 @@ public class TopologyConfig {
 
         KTable<String, BankAccountInfo> joined = tableBankAccount.join(tableAddress, BankAccountInfo::new);
 
-        joined.toStream().print(Printed.<String, BankAccountInfo>toSysOut().withLabel("BankAccountInfo"));
+//        joined.toStream().print(Printed.<String, BankAccountInfo>toSysOut().withLabel("BankAccountInfo"));
 //        tableBankAccount.toStream().print(Printed.<String, BankAccount>toSysOut().withLabel("BankAccount"));//для отображения в консоле. при нужде раскоментить
 //        tableAddress.toStream().print(Printed.<String, Address>toSysOut().withLabel("Address"));//для отображения в консоле. при нужде раскоментить
         joined.toStream().to(bankAccInfoTopic, Produced.with(Serdes.String(), new JsonSerde<>(BankAccountInfo.class)));
