@@ -5,7 +5,6 @@ import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.StreamsBuilder;
 import org.apache.kafka.streams.Topology;
 import org.apache.kafka.streams.kstream.*;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -24,8 +23,9 @@ public class TopologyConfig {
     @Value("${kafka.addressTopic}")
     private String addressTopic;
 
-//    @Autowired
-//    private final RandomAddressService randomAddressService;
+    @Value("${kafka.bankAccInfoTopic}")
+    private String bankAccInfoTopic;
+
     @Bean
     public Topology createTopology(StreamsBuilder streamsBuilder) {
         KStream<String, BankAccount> inputAcc = streamsBuilder.stream(bankAccTopic, Consumed.with(Serdes.String(),
@@ -43,10 +43,12 @@ public class TopologyConfig {
                 groupByKey()
                 .reduce((aggV, newV) -> newV);
 
-//        KTable<String, BankAccountInfo> joined = inputAcc.join(inputAdd, (acc, add) -> new BankAccountInfo(acc, add));
+        KTable<String, BankAccountInfo> joined = tableBankAccount.join(tableAddress, BankAccountInfo::new);
 
-        tableBankAccount.toStream().print(Printed.<String, BankAccount>toSysOut().withLabel("BankAccount"));//для отображения в консоле. при нужде раскоментить
-        tableAddress.toStream().print(Printed.<String, Address>toSysOut().withLabel("Address"));//для отображения в консоле. при нужде раскоментить
+        joined.toStream().print(Printed.<String, BankAccountInfo>toSysOut().withLabel("BankAccountInfo"));
+//        tableBankAccount.toStream().print(Printed.<String, BankAccount>toSysOut().withLabel("BankAccount"));//для отображения в консоле. при нужде раскоментить
+//        tableAddress.toStream().print(Printed.<String, Address>toSysOut().withLabel("Address"));//для отображения в консоле. при нужде раскоментить
+        joined.toStream().to(bankAccInfoTopic, Produced.with(Serdes.String(), new JsonSerde<>(BankAccountInfo.class)));
 
         Topology topology = streamsBuilder.build();
         topology.describe();

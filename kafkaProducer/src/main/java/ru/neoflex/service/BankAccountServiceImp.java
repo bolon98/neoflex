@@ -21,7 +21,7 @@ public class BankAccountServiceImp implements BankAccountService {
     @Autowired
     private KafkaTemplate<String, Object> kafkaTemplate;
 
-    @Scheduled(fixedDelay = 500)
+    @Scheduled(fixedDelay = 750)
     public void processAccount() {
         BankAccount bankAccount = getBankAccount();
 

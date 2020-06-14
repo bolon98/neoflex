@@ -24,38 +24,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c916a46e-f33e-493d-ade9-dd564b029bbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/kafkaConsumer2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/src/main/java/ru/neoflex/ProjectApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/src/main/java/ru/neoflex/config/KafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/src/main/java/ru/neoflex/config/TopologyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/src/main/java/ru/neoflex/model/AccountType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/src/main/java/ru/neoflex/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/src/main/java/ru/neoflex/model/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/src/main/java/ru/neoflex/model/BankAccountInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafkaConsumer2/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/module_neoflex.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/neoflex.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressGenerate/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../addressGenerate/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../addressGenerate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../addressGenerate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../addressGenerate/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../addressGenerate/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../addressGenerate/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../addressGenerate/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../addressGenerate/target/classes/ru/neoflex/config/TopologyConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../addressGenerate/target/classes/ru/neoflex/config/TopologyConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressGenerate/src/main/java/ru/neoflex/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../addressGenerate/src/main/java/ru/neoflex/config/KafkaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressGenerate/target/classes/ru/neoflex/config/KafkaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../addressGenerate/target/classes/ru/neoflex/config/KafkaConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafkaConsumer2/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaConsumer2/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafkaConsumer2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaConsumer2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafkaConsumer2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaConsumer2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafkaConsumer2/src/main/java/ru/neoflex/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaConsumer2/src/main/java/ru/neoflex/config/KafkaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafkaConsumer2/src/main/java/ru/neoflex/config/TopologyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaConsumer2/src/main/java/ru/neoflex/config/TopologyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafkaConsumer2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaConsumer2/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafkaConsumer2/target/classes/ru/neoflex/config/KafkaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaConsumer2/target/classes/ru/neoflex/config/KafkaConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafkaConsumer2/target/classes/ru/neoflex/config/TopologyConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaConsumer2/target/classes/ru/neoflex/config/TopologyConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kafkaProducer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaProducer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafkaProducer/src/main/java/ru/neoflex/service/BankAccountServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaProducer/src/main/java/ru/neoflex/service/BankAccountServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafkaProducer/target/classes/ru/neoflex/service/BankAccountServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../kafkaProducer/target/classes/ru/neoflex/service/BankAccountServiceImp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../userRedisRequest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../userRedisRequest/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -74,11 +58,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/config/KafkaConsumerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="510">
               <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1796#1817#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/repository/MessagePublisherImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="340">
               <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -135,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/service/BankAccountServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="51">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -156,8 +139,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="19" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="51" selection-end-column="19" />
+            <state relative-caret-position="240">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="49" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -210,7 +193,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,7 +293,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -379,7 +362,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -389,6 +372,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Job Explorer" order="9" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.492635" />
@@ -430,13 +414,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/kafka.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/kafka.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -447,34 +425,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/model/AccountType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/model/Address.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/model/BankAccountInfo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/config/KafkaConsumerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/model/BankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/model/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/model/BankAccountInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="510">
+          <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -488,16 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/repository/MessagePublisherImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/service/BankAccountService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -505,13 +451,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/config/KafkaConsumerConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/model/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
+        <state relative-caret-position="187">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/repository/MessagePublisherImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1796#1817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/model/AccountType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/service/BankAccountServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -523,20 +492,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/neoflex/service/BankAccountServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="19" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="51" selection-end-column="19" />
+        <state relative-caret-position="240">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="49" selection-end-column="21" />
         </state>
       </provider>
     </entry>

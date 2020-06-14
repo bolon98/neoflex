@@ -22,7 +22,7 @@ public class KafkaConfig {
         props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String().getClass().getName());
         props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String().getClass().getName());
         props.put(StreamsConfig.DEFAULT_DESERIALIZATION_EXCEPTION_HANDLER_CLASS_CONFIG, LogAndContinueExceptionHandler.class);
-        props.put(StreamsConfig.COMMIT_INTERVAL_MS_CONFIG, 10000);
+        props.put(StreamsConfig.COMMIT_INTERVAL_MS_CONFIG, 100);
         KafkaStreamsConfiguration streamsConfig = new KafkaStreamsConfiguration(props);
         return streamsConfig;
     }
